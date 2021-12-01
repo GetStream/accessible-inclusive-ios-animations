@@ -7,4 +7,7 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ## Stream Logo Animation <a href="https://gist.github.com/amosgyamfi/4a9616a2209d7c50032ca54b357a32c6#file-streamlogoanimation2">Gist</a>
 ![Logo Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/LaunchScreen/stream_loader.gif)
 
+## Empty Chat Animation <a href="https://gist.github.com/amosgyamfi/7cefafb216e17b69951f46429cb65e2e#file-emptychatanimation-swift">Gist</a>
+![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/ChatMessaging/emptyChhatAnimation.gif)
+
 
