@@ -1,8 +1,8 @@
 # stream-swiftui-animations
 Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gists to see how they are built. 
 
-## iMessage-like Baloons Screen Effect <a href="https://gist.github.com/amosgyamfi/1a5e0dac1afa89c85b411bf0607ec845#file-baloonsscreeneffect-swift">Gist</a>
-![Baloons Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsScreenEffect.gif)
+## iMessage-like Balloons Screen Effect <a href="https://gist.github.com/amosgyamfi/1a5e0dac1afa89c85b411bf0607ec845#file-baloonsscreeneffect-swift">Gist</a>
+![Balloons Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsScreenEffect.gif)
 
 ## Confetti Screen Effect <a href="https://gist.github.com/amosgyamfi/8d61802f6bb412c59277870315dd49df#file-confettiscreeneffect-swift">Gist</a>
 ![Confetti Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/confettiScreenEffect.gif)
