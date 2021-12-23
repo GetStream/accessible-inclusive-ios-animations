@@ -17,7 +17,7 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ![Celebration Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/celebration.gif)
 
 <hr/>
-# <h2>Combined Screen Effects</h2>
+<h1>Combined Screen Effects</h1>
 
 ## Balloons, Celebration and Fireworks <a href=""></a>
 ![Balloons, Celebration and Fireworks](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/balloonCelebrationFireworks.gif)
