@@ -10,11 +10,19 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ## Love Screen Effect <a href="https://gist.github.com/amosgyamfi/2737946f1093fb18125c376b5a14821a#file-lovescreeneffect-swift">Gist</a>
 ![Love Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/loveScreenEffect.gif)
 
-## Fireworks Baloons Screen Effect <a href="https://gist.github.com/amosgyamfi/5c640ccdb90ec8b67137e72e2cad1ae6#file-fireworksscreeneffect-swift">Gist</a>
+## Fireworks Screen Effect <a href="https://gist.github.com/amosgyamfi/5c640ccdb90ec8b67137e72e2cad1ae6#file-fireworksscreeneffect-swift">Gist</a>
 ![Fireworks Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/fireworksScreenEffect.gif)
+
+## Celebration Screen Effect <a href="https://gist.github.com/amosgyamfi/7993538439669fbdf666c4ea466479bb#file-celebration-swift">Gist</a>
+![Celebration Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/celebration.gif)
+
+<hr/>
+# Combined Screen Effects
 
 ## Balloons, Celebration and Fireworks <a href=""></a>
 ![Balloons, Celebration and Fireworks](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/balloonCelebrationFireworks.gif)
+
+<hr/>
 
 ## Logo Animation <a href="https://gist.github.com/amosgyamfi/e0d6493bc9bb5a608f2d68773e517ea0#file-launchscreenanimation-swift">Gist</a>
 ![Logo Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/LaunchScreen/launchScren.gif)
