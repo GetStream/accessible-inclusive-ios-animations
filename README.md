@@ -22,11 +22,20 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ## Balloons and Confetti <a href=""></a>
 ![Balloons and Confetti](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsAndConfetti.gif)
 
+## Balloons and Confetti from Edges<a href=""></a>
+![Balloons and Confetti from Edges](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsEdgesConfetti.gif)
+
 ## Balloons and Celebration <a href=""></a>
 ![Balloons and Celebration](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/balloonsAndCelebration.gif)
 
 ## Balloons, Celebration and Fireworks <a href=""></a>
 ![Balloons, Celebration and Fireworks](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/balloonCelebrationFireworks.gif)
+
+## Balloons and Love <a href=""></a>
+![Balloons and Love](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsAndLove.gif)
+
+## Confetti and Fireworks <a href=""></a>
+![Confetti and Fireworks](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/confettiFireworks.gif)
 
 <hr/>
 
