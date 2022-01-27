@@ -1,6 +1,9 @@
 # stream-swiftui-animations
 Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gists to see how they are built. 
 
+## SwiftUI Chat Micro-interactions with Spring Animation <a href="s">Gist</a>
+![SwiftUI Chat Micro-interactions with Spring Animation ](https://github.com/amosgyamfi/swiftui-animation-library/blob/master/M/MessengerReactionsGestures.gif)
+
 ## iMessage-like Balloons Screen Effect <a href="https://gist.github.com/amosgyamfi/1a5e0dac1afa89c85b411bf0607ec845#file-baloonsscreeneffect-swift">Gist</a>
 ![Balloons Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsScreenEffect.gif)
 
