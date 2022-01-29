@@ -7,6 +7,9 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ## Empty Chat Animation <a href="#">Gist</a>
 ![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/ChatMessaging/ChannelListEmptyAnimations.gif)
 
+## Group Live Stream Animations <a href="#">Gist</a>
+![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/LiveStream/group_live_stream.gif)
+
 ## iMessage-like Balloons Screen Effect <a href="https://gist.github.com/amosgyamfi/1a5e0dac1afa89c85b411bf0607ec845#file-baloonsscreeneffect-swift">Gist</a>
 ![Balloons Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsScreenEffect.gif)
 
