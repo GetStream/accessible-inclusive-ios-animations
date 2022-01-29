@@ -4,6 +4,9 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ## SwiftUI Chat Micro-interactions with Spring Animation <a href="s">Gist</a>
 ![SwiftUI Chat Micro-interactions with Spring Animation ](https://github.com/amosgyamfi/swiftui-animation-library/blob/master/M/MessengerReactionsGestures.gif)
 
+## Empty Chat Animation <a href="#">Gist</a>
+![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/ChatMessaging/ChannelListEmptyAnimations.gif)
+
 ## iMessage-like Balloons Screen Effect <a href="https://gist.github.com/amosgyamfi/1a5e0dac1afa89c85b411bf0607ec845#file-baloonsscreeneffect-swift">Gist</a>
 ![Balloons Screen Effect](https://github.com/GetStream/stream-swiftui-animations/blob/main/iMessage-like/baloonsScreenEffect.gif)
 
@@ -51,7 +54,6 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ## Stream Logo Animation <a href="https://gist.github.com/amosgyamfi/4a9616a2209d7c50032ca54b357a32c6#file-streamlogoanimation2">Gist</a>
 ![Logo Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/LaunchScreen/stream_loader.gif)
 
-## Empty Chat Animation <a href="#">Gist</a>
-![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/ChatMessaging/ChannelListEmptyAnimations.gif)
+
 
 
