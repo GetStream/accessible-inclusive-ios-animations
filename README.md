@@ -7,6 +7,9 @@ Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gist
 ## Empty Chat Animation <a href="#">Gist</a>
 ![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/ChatMessaging/ChannelListEmptyAnimations.gif)
 
+## SwiftUI Animated Typing Indicators with 7 Variants <a href="https://github.com/GetStream/StreamiOSChatSDKPrototyping">Download the project</a>
+![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/ChatMessaging/typing_animations.gif)
+
 ## Group Live Stream Animations <a href="#">Gist</a>
 ![Empty Chat Animation](https://github.com/GetStream/stream-swiftui-animations/blob/main/LiveStream/group_live_stream.gif)
 
