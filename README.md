@@ -1,6 +1,9 @@
 # stream-swiftui-animations
 Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gists to see how they are built. 
 
+## Spring Animation: Transition a menu icon to a close icon <a href="https://gist.github.com/amosgyamfi/df3eeade6979349bb60862b25e46dece#file-hamburgertoclose-swift">Gist</a>
+![SwiftUI Chat Micro-interactions with Spring Animation ](https://github.com/GetStream/stream-swiftui-animations/blob/main/Misc/hamburgerToClose.gif)
+
 ## SwiftUI Chat Micro-interactions with Spring Animation <a href="s">Gist</a>
 ![SwiftUI Chat Micro-interactions with Spring Animation ](https://github.com/amosgyamfi/swiftui-animation-library/blob/master/M/MessengerReactionsGestures.gif)
 
