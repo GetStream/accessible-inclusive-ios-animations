@@ -1,8 +1,8 @@
 # stream-swiftui-animations
 Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gists to see how they are built. 
 
-## SwiftUI Matching Ants Effect <a href="https://gist.github.com/amosgyamfi/df6aa93f6c41b60fc4be70e2fb79985b#file-streamlogomatchingants-swift">Gist</a>
-![SwiftUI Matching Ants Effect ](https://github.com/GetStream/stream-swiftui-animations/blob/main/Misc/matchingAnts.gif)
+## SwiftUI Matching Ants Effect <a href="https://gist.github.com/amosgyamfi/df6aa93f6c41b60fc4be70e2fb79985b">Gist</a>
+![SwiftUI Matching Ants Effect ](https://github.com/GetStream/stream-swiftui-animations/blob/main/Misc/StreamLogoMarchingAnts.gif)
 
 ## Spring Animation: Transition a menu icon to a close icon <a href="https://gist.github.com/amosgyamfi/df3eeade6979349bb60862b25e46dece#file-hamburgertoclose-swift">Gist</a>
 ![SwiftUI Chat Micro-interactions with Spring Animation ](https://github.com/GetStream/stream-swiftui-animations/blob/main/Misc/hamburgerToClose.gif)
