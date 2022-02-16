@@ -1,6 +1,9 @@
 # stream-swiftui-animations
 Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gists to see how they are built. 
 
+## SwiftUI: Heart Rate Measuring Animation <a href="https://gist.github.com/amosgyamfi/2726ee16ec385a33e43b66d261aa69ea">Gist</a>
+![Heart Rate Measuring ](https://github.com/GetStream/stream-swiftui-animations/blob/main/Misc/HeartRate.gif)
+
 ## SwiftUI Marching Ants Effect <a href="https://gist.github.com/amosgyamfi/df6aa93f6c41b60fc4be70e2fb79985b">Gist</a>
 ![SwiftUI Marching Ants Effect ](https://github.com/GetStream/stream-swiftui-animations/blob/main/Misc/StreamLogoMarchingAnts.gif)
 
