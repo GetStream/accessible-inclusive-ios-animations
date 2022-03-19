@@ -1,6 +1,15 @@
 # stream-swiftui-animations
 Inspirational and Fine-grained iOS Animations Built With SwiftUI. Check the Gists to see how they are built. 
 
+## Realistic Chain: <a href="https://gist.github.com/amosgyamfi/fa899f1026ed71db52c83da5afb69ecf"> Swift file</a>
+![Realistic Chain ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/chains.gif)
+
+## Chat Emojis: <a href="https://gist.github.com/amosgyamfi/1852a73764ccc6790bed18f10057579a"> Swift file</a>
+![Chat Emojis ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/chatEmojis.gif)
+
+## Draggable Menu ( <a href="https://www.hackingwithswift.com/books/ios-swiftui/customizing-animations-in-swiftui"> Inapired by Hackingwithswift</a>):  <a href="https://gist.github.com/amosgyamfi/37bf602c0fd145e3f5a8e6384dd5f796"> Swift file</a>
+![Draggable Menu ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/draggableMenu.gif)
+
 ## SwiftUI: Heart Rate Measuring Animation <a href="https://gist.github.com/amosgyamfi/2726ee16ec385a33e43b66d261aa69ea">Gist</a>
 ![Heart Rate Measuring ](https://github.com/GetStream/stream-swiftui-animations/blob/main/Misc/HeartRate.gif)
 
