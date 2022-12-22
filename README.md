@@ -6,8 +6,7 @@
 | **Prompt** | 
 | Create a SwiftUI animation that wobbles forever | 
 | **Code** | 
-| ´´´swift
-struct WobbleView: View {
+| ´struct WobbleView: View {
     @State private var wobbleAmount: CGFloat = 0
     
     var body: some View {
@@ -24,9 +23,7 @@ struct WobbleView: View {
                 }
         }
     }
-}
-
-´´´ | 
+}´ | 
 | **Preview** | 
 | Display text in a green font | 
 
