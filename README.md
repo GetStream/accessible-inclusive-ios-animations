@@ -1,8 +1,9 @@
 # Jiggle Of Jello
 ## Neat and Simple ChatGPT - SwiftUI Animations and Transitions for Your Next Project. 
 
+| Create a SwiftUI animation that wobbles forever | 
+|--------|
 
-| **Prompt** Create a SwiftUI animation that wobbles forever |
 ```swift
 import SwiftUI
 
@@ -22,7 +23,8 @@ struct WobbleView: View {
                 }
         }
     }
-} ```
+} 
+```
 
 
 
