@@ -46,7 +46,6 @@ struct JiggleView: View {
         VStack {
             Text("Jiggle")
                 .font(.largeTitle)
-                .foregroundColor(.white)
                 .padding()
                 .background(Color.red)
                 .rotationEffect(.degrees(jiggleAmount))
