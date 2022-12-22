@@ -3,7 +3,11 @@
 
 | Prompt | SwiftUI Code | Preview |
 |--------|---------------|---------|
-| Display a circle with a blue border | `´´swift struct WobbleView: View {
+| **Prompt** | 
+| Create a SwiftUI animation that wobbles forever | 
+| **Code** | 
+| ´´´swift
+struct WobbleView: View {
     @State private var wobbleAmount: CGFloat = 0
     
     var body: some View {
@@ -21,9 +25,10 @@
         }
     }
 }
-´´` | ![Preview](https://via.placeholder.com/100x100) |
-| Display a red square | `Rectangle().fill(Color.red)` | ![Preview](https://via.placeholder.com/100x100) |
-| Display text in a green font | `Text("Hello World").foregroundColor(.green)` | ![Preview](https://via.placeholder.com/100x100) |
+
+´´´ | 
+| **Preview** | 
+| Display text in a green font | 
 
 
 
