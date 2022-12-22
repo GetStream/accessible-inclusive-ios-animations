@@ -3,7 +3,7 @@
 
 | Prompt | Preview |
 |--------|---------|
-| Create a SwiftUI animation that wobbles forever | ![Preview](https://via.placeholder.com/100x100) |
+| Create a SwiftUI animation that wobbles forever | ![Wobble](https://github.com/GetStream/JiggleOfJello/blob/main/Previews/wobble.png) |
 | Display a red square | ![Preview](https://via.placeholder.com/100x100) |
 
 
