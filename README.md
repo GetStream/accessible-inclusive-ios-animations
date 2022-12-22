@@ -1,5 +1,5 @@
 # Jiggle Of Jello
-## Neat and Simple SwiftUI Animations and Transitions for Your Next Project. 
+## Neat and Simple ChatGPT - SwiftUI Animations and Transitions for Your Next Project. 
 
 
 
