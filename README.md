@@ -4,7 +4,7 @@
 | Prompt | Preview |
 |--------|---------|
 | Create a SwiftUI animation that wobbles forever | ![Preview](https://via.placeholder.com/100x100) |
-| Display a red square | `Rectangle().fill(Color.red)` | ![Preview](https://via.placeholder.com/100x100) |
+| Display a red square | ![Preview](https://via.placeholder.com/100x100) |
 
 
 ```swift
