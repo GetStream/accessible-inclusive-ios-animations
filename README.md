@@ -2,7 +2,7 @@
 ## Neat and Simple ChatGPT - SwiftUI Animations and Transitions for Your Next Project. 
 
 **ASK:** Create a SwiftUI animation that wobbles forever
-´´´swift
+```swift
 import SwiftUI
 
 struct WobbleView: View {
@@ -22,7 +22,7 @@ struct WobbleView: View {
         }
     }
 }
-´´´
+
 
 
 
