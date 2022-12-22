@@ -4,7 +4,7 @@
 | Prompt | Preview |
 |--------|---------|
 | Create a SwiftUI animation that wobbles forever | ![Wobble](https://github.com/GetStream/JiggleOfJello/blob/main/Previews/wobble.png) |
-| 
+
 ```swift
 import SwiftUI
 
@@ -26,7 +26,7 @@ struct WobbleView: View {
     }
 } 
 ```
-|
+-----
 
 
 
