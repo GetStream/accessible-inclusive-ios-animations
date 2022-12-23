@@ -75,10 +75,10 @@ struct MarchingAntsRectangle: View {
     var body: some View {
         Rectangle()
             .stroke(style: StrokeStyle(lineWidth: 6, dash: [10, 5], dashPhase: dashPhase))
-            .animation(Animation.linear(duration: 1).repeatForever(autoreverses: false), value: dashPhase)
+            .animation(.linear(duration: 1).repeatForever(autoreverses: false), value: dashPhase)
             .frame(width: 300, height: 200)
             .onAppear {
-                self.dashPhase = 10.0
+                dashPhase = 10.0
             }
     }
 }
