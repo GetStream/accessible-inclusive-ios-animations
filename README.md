@@ -146,6 +146,85 @@ struct JelloView: View {
 ```
 ----
 
+| ChatGPT Prompt | Preview |
+|--------|---------|
+| 1. Create a SwiftUI app animation that is triggered by tapping the SF Symbol button hand.thumbsup.fill. Use a ZStack for the animated views which consist of a splash at the bottom, a green circle in the middle, and a number on the top. When the button is tapped, the opacity of the splash and the green circle change from 0 to 1 with animation, and the number increments by 1 with animation. Use 12 small circles of different colors for the splash and rotate them around a central point by placing their offset above rotation.
+
+2. Increment the number anytime the button is tapped. Change the opacity of the green circle and the splash back to 0 with animation after they animate to an opacity of 1, anytime the button is tapped | ![Marching Ants](
+https://github.com/GetStream/JiggleOfJello/blob/main/Previews/mediumStyleReaction.gif) |
+
+```swift
+import SwiftUI
+
+struct MediumClap3: View {
+    @State private var showAnimation = false
+    @State private var count = 0
+
+    var body: some View {
+        VStack(spacing: 64) {
+            ZStack {
+                // Splash view
+                ForEach(0..<12, id: \.self) { i in
+                    Circle()
+                        .fill(getCircleColor(i))
+                        .frame(width: 12, height: 12)
+                        .opacity(showAnimation ? 1 : 0)
+                        .animation(.easeInOut(duration: 1.5), value: showAnimation)
+                        .offset(x: 0, y: -130)
+                        .rotationEffect(.degrees(Double(i * 30)))
+                }
+                //.scaleEffect(showAnimation ? 1 : 1.3)
+                
+                // Green circle
+                Circle()
+                    .fill(.green)
+                    .frame(width: 200, height: 200)
+                    //.scaleEffect(showAnimation ? 1.3 : 1)
+                    .opacity(showAnimation ? 1 : 0)
+                    .animation(.easeInOut(duration: 1.5), value: showAnimation)
+
+                // Number label
+                Text("\(count)")
+                    .font(.largeTitle)
+                    .animation(.easeInOut(duration: 0.5), value: count)
+            }
+            
+            // Button
+            Button(action: {
+                showAnimation = true
+                count += 1
+
+                // Change the opacity of the green circle and the splash back to 0 with animation
+                withAnimation(.default.delay(1)) {
+                    showAnimation = false
+                }
+            }) {
+                Image(systemName: "hand.thumbsup.fill")
+                    .font(.largeTitle)
+            }
+        }
+    }
+
+    // Helper function to get the color for each circle in the splash
+    func getCircleColor(_ index: Int) -> Color {
+        switch index % 4 {
+        case 0:
+            return .red
+        case 1:
+            return .yellow
+        case 2:
+            return .blue
+        case 3:
+            return .purple
+        default:
+            return .black
+        }
+    }
+}
+```
+----
+
+
 
 
 
