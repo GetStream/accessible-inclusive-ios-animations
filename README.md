@@ -148,9 +148,7 @@ struct JelloView: View {
 
 | ChatGPT Prompt | Preview |
 |--------|---------|
-| 1. Create a SwiftUI app animation that is triggered by tapping the SF Symbol button hand.thumbsup.fill. Use a ZStack for the animated views which consist of a splash at the bottom, a green circle in the middle, and a number on the top. When the button is tapped, the opacity of the splash and the green circle change from 0 to 1 with animation, and the number increments by 1 with animation. Use 12 small circles of different colors for the splash and rotate them around a central point by placing their offset above rotation.
-2. Increment the number anytime the button is tapped. Change the opacity of the green circle and the splash back to 0 with animation after they animate to an opacity of 1, anytime the button is tapped | ![Marching Ants](
-https://github.com/GetStream/JiggleOfJello/blob/main/Previews/mediumStyleReaction.gif) |
+| 1. Create a SwiftUI app animation that is triggered by tapping the SF Symbol button hand.thumbsup.fill. Use a ZStack for the animated views which consist of a splash at the bottom, a green circle in the middle, and a number on the top. When the button is tapped, the opacity of the splash and the green circle change from 0 to 1 with animation, and the number increments by 1 with animation. Use 12 small circles of different colors for the splash and rotate them around a central point by placing their offset above rotation. 2. Increment the number anytime the button is tapped. Change the opacity of the green circle and the splash back to 0 with animation after they animate to an opacity of 1, anytime the button is tapped | ![Marching Ants](https://github.com/GetStream/JiggleOfJello/blob/main/Previews/mediumStyleReaction.gif) |
 
 ```swift
 import SwiftUI
