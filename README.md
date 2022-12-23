@@ -117,6 +117,35 @@ struct PencilCircleView: View {
 ```
 ----
 
+| ChatGPT Prompt | Preview |
+|--------|---------|
+| Create a SwiftUI animation that jellos forever | ![Marching Ants](https://github.com/GetStream/JiggleOfJello/blob/main/Previews/jello.gif) |
+
+```swift
+//  MARK: Create a SwiftUI animation that jellos forever
+//
+import SwiftUI
+
+struct JelloView: View {
+    @State private var jelloAmount = 0.0
+    
+    var body: some View {
+        VStack {
+            Text("Jello")
+                .font(.largeTitle)
+                .padding()
+                .background(.red)
+                .offset(x: 0, y: jelloAmount)
+                .animation(.easeInOut(duration: 0.1).repeatForever(autoreverses: true), value: jelloAmount)
+                .onAppear {
+                    jelloAmount = 10.0
+                }
+        }
+    }
+}
+```
+----
+
 
 
 
