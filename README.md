@@ -85,6 +85,39 @@ struct MarchingAntsRectangle: View {
 ```
 ----
 
+| ChatGPT Prompt | Preview |
+|--------|---------|
+| MARK: Create a SwiftUI animation that makes the tip of the SF Symbol pencil moves around a stroked circle forever | ![Marching Ants](https://github.com/GetStream/JiggleOfJello/blob/main/Previews/moveAlongCircle.gif) |
+
+```swift
+//  MARK: Create a SwiftUI animation that makes the tip of the SF Symbol pencil moves around a stroked circle forever
+
+import SwiftUI
+
+struct PencilCircleView: View {
+    @State private var angle: Angle = .degrees(0)
+    
+    var body: some View {
+        ZStack {
+            Circle()
+                .stroke(Color.red, lineWidth: 2)
+                .frame(width: 200, height: 200)
+            
+            Image(systemName: "pencil.tip")
+                .font(.system(size: 64))
+                .offset(x: 100)
+                .rotationEffect(angle)
+                .animation(.linear(duration: 2).repeatForever(autoreverses: false), value: angle)
+                .onAppear {
+                    self.angle = .degrees(360)
+                }
+        }
+    }
+}
+```
+----
+
+
 
 
 
