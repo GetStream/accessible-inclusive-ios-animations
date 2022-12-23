@@ -59,7 +59,31 @@ struct JiggleView: View {
 ```
 ----
 
+| ChatGPT Prompt | Preview |
+|--------|---------|
+| Create a SwiftUI animation that uses the dashPhase of a rectangle to create marching ants effect. Repeat the animation forever | ![Marching Ants](https://github.com/GetStream/JiggleOfJello/blob/main/Previews/marchnigAnts.gif) |
 
+```swift
+//  MARK: Create a SwiftUI animation that uses the dashPhase of a rectangle to create marching ants effect. Repeat the animation forever
+//
+
+import SwiftUI
+
+struct MarchingAntsRectangle: View {
+    @State private var dashPhase = 100.0
+
+    var body: some View {
+        Rectangle()
+            .stroke(style: StrokeStyle(lineWidth: 6, dash: [10, 5], dashPhase: dashPhase))
+            .animation(Animation.linear(duration: 1).repeatForever(autoreverses: false), value: dashPhase)
+            .frame(width: 300, height: 200)
+            .onAppear {
+                self.dashPhase = 10.0
+            }
+    }
+}
+```
+----
 
 
 
