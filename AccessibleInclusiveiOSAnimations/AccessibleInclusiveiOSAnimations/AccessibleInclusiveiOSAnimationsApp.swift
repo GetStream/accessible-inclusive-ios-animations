@@ -11,7 +11,19 @@ import SwiftUI
 struct AccessibleInclusiveiOSAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //DelightPlayfulness()
+            //StateChange()
+            //GuideUsers()
+            //UserInitiated()
+            //Loading()
+            //PhaseAnimatePIP()
+            //ReactionsWithKeyframes()
+            //StreamLaunchScreenAnimation()
+            //ReduceMotionAnimationNil()
+            //ReduceMotionAnimationSubtleFeel()
+            //ReduceMotionDurationZero()
+            //MeetingOptionsView()
+            SpinningOrRotatingEffect()
         }
     }
 }

@@ -1,15 +1,13 @@
 //
-//  PreJoinScreen.swift
+//  UserInitiated.swift
 //  SwiftUIAroundClone
 //
 //  Created by amos.gyamfi@getstream.io on 10.7.2023.
 //
 
 import SwiftUI
-import StreamVideo
-import StreamVideoSwiftUI
 
-struct PreJoinScreen: View {
+struct UserInitiated: View {
     @State private var audioOn = false
     @State private var videoOn = false
     @State private var isJoined = false
@@ -17,20 +15,12 @@ struct PreJoinScreen: View {
     
     var body: some View {
         VStack {
-            if !videoOn {
-                Image(.sonoma)
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(Circle())
-                    .frame(width: 180, height: 180)
-                    .overlay(Circle().stroke().foregroundStyle(borderGradient))
-            } else {
-                HostedViewController()
-                    .clipShape(Circle())
-                    .frame(width: 180, height: 180)
-                    .overlay(Circle().stroke())
-                    .overlay(Circle().stroke().foregroundStyle(borderGradient))
-            }
+            Image(.sonoma)
+                .resizable()
+                .scaledToFit()
+                .clipShape(Circle())
+                .frame(width: 180, height: 180)
+                .overlay(Circle().stroke().foregroundStyle(borderGradient))
             
             Spacer()
             
@@ -38,13 +28,12 @@ struct PreJoinScreen: View {
             
             Spacer()
             
-            // Toggles
             HStack(spacing: 80) {
                 Toggle(isOn: $audioOn) {
                     Image(systemName: audioOn ? "mic.fill" : "mic.slash.fill")
                         .symbolRenderingMode(.hierarchical)
                         .foregroundColor(audioOn ? .green : .primary)
-                        .contentTransition(.symbolEffect(.replace.byLayer))
+                        .contentTransition(.symbolEffect(.replace))
                 }
                 .frame(width: 80)
                 
@@ -52,7 +41,7 @@ struct PreJoinScreen: View {
                     Image(systemName: videoOn ? "video.fill" : "video.slash.fill")
                         .symbolRenderingMode(.hierarchical)
                         .foregroundColor(videoOn ? .green : .primary)
-                        .contentTransition(.symbolEffect(.replace.byLayer))
+                        .contentTransition(.symbolEffect(.replace))
                 }
                 .frame(width: 80)
             }
@@ -60,14 +49,12 @@ struct PreJoinScreen: View {
             Spacer()
             
             Button {
-                //VideoRendererSetup()
                 isJoined.toggle()
             } label: {
                 Capsule()
                     .frame(width: 240, height: 48)
                     .overlay(audioOn ? Text("Join").foregroundColor(.white) : Text("Join muted").foregroundColor(.white))
             }
-            .fullScreenCover(isPresented: $isJoined, content: CallContainerSetup.init)
             
             Spacer()
             
@@ -79,4 +66,9 @@ struct PreJoinScreen: View {
             Spacer()
         }
     }
+}
+
+#Preview {
+    UserInitiated()
+        .preferredColorScheme(.dark)
 }

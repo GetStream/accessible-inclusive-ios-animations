@@ -1,18 +1,58 @@
+
 //
 //  ReduceMotionAnimationNil.swift
-//  AccessibleInclusiveiOSAnimations
-//
-//  Created by amos.gyamfi@getstream.io on 24.9.2023.
+//  Hamburger to Close
 //
 
 import SwiftUI
 
 struct ReduceMotionAnimationNil: View {
+    
+    @State private var isRotating = false
+    @State private var isHidden = false
+    
+    // Reduce Motion On
+    let subtleFeel = Animation.snappy
+    
+    // Reduce Motion OFF
+    let bouncyFeel = Animation.bouncy(duration: 0.4, extraBounce: 0.2)
+    
+    // Detect and respond to reduce motion
+    @Environment(\.accessibilityReduceMotion) var reduceMotion
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 14){
+            
+            Rectangle() // top
+                .frame(width: 64, height: 10)
+                .cornerRadius(4)
+                .rotationEffect(.degrees(isRotating ? 48 : 0), anchor: .leading)
+            
+            Rectangle() // middle
+                .frame(width: 64, height: 10)
+                .cornerRadius(4)
+                .scaleEffect(isHidden ? 0 : 1, anchor: isHidden ? .trailing: .leading)
+                .opacity(isHidden ? 0 : 1)
+            
+            Rectangle() // bottom
+                .frame(width: 64, height: 10)
+                .cornerRadius(4)
+                .rotationEffect(.degrees(isRotating ? -48 : 0), anchor: .leading)
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityLabel("Menu and close icon transition")
+        .onTapGesture {
+            withAnimation(reduceMotion ? nil : bouncyFeel) {
+                isRotating.toggle()
+                isHidden.toggle()
+            }
+        }
+        
     }
 }
 
 #Preview {
-    ReduceMotionAnimationNil()
+    ReduceMotionAnimationSubtleFeel()
+        .preferredColorScheme(.dark)
 }

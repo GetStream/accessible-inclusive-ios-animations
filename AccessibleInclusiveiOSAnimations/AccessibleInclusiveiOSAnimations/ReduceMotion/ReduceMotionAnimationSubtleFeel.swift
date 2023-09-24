@@ -6,13 +6,15 @@
 
 import SwiftUI
 
-struct ReduceMotionAnimationNil: View {
+struct ReduceMotionAnimationSubtleFeel: View {
     
     @State private var isRotating = false
     @State private var isHidden = false
     
-    let subtleFeel = Animation.snappy // Use when Reduce Motion is On
+    // Reduce Motion On
+    let subtleFeel = Animation.snappy
     
+    // Reduce Motion OFF
     let bouncyFeel = Animation.bouncy(duration: 0.4, extraBounce: 0.2)
     
     // Detect and respond to reduce motion
@@ -39,7 +41,7 @@ struct ReduceMotionAnimationNil: View {
         }
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
-        .accessibilityLabel("Hamburger menu")
+        .accessibilityLabel("Menu and close icon transition")
         .onTapGesture {
             withAnimation(reduceMotion ? subtleFeel : bouncyFeel) {
                 isRotating.toggle()
@@ -51,6 +53,6 @@ struct ReduceMotionAnimationNil: View {
 }
 
 #Preview {
-    ReduceMotionAnimationNil()
+    ReduceMotionAnimationSubtleFeel()
         .preferredColorScheme(.dark)
 }

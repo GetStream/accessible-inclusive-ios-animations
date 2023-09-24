@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import StreamVideo
-import StreamVideoSwiftUI
 
 struct PreJoinScreen: View {
     @State private var audioOn = false
@@ -17,20 +15,14 @@ struct PreJoinScreen: View {
     
     var body: some View {
         VStack {
-            if !videoOn {
-                Image(.sonoma)
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(Circle())
-                    .frame(width: 180, height: 180)
-                    .overlay(Circle().stroke().foregroundStyle(borderGradient))
-            } else {
-                HostedViewController()
-                    .clipShape(Circle())
-                    .frame(width: 180, height: 180)
-                    .overlay(Circle().stroke())
-                    .overlay(Circle().stroke().foregroundStyle(borderGradient))
-            }
+            
+            Image(.sonoma)
+                .resizable()
+                .scaledToFit()
+                .clipShape(Circle())
+                .frame(width: 180, height: 180)
+                .overlay(Circle().stroke().foregroundStyle(borderGradient))
+            
             
             Spacer()
             
@@ -68,7 +60,7 @@ struct PreJoinScreen: View {
                     .overlay(audioOn ? Text("Join").foregroundColor(.white) : Text("Join muted").foregroundColor(.white))
                     .contentTransition(.interpolate)
             }
-            .fullScreenCover(isPresented: $isJoined, content: CallContainerSetup.init)
+            .fullScreenCover(isPresented: $isJoined, content: MeetingOptionsView.init)
             
             Spacer()
             
@@ -80,4 +72,9 @@ struct PreJoinScreen: View {
             Spacer()
         }
     }
+}
+
+#Preview {
+    PreJoinScreen()
+        .preferredColorScheme(.dark)
 }

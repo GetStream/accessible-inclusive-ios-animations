@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import StreamVideo
-import StreamVideoSwiftUI
 
 struct MeetingOptionsView: View {
     let borderGradient = LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing)
@@ -92,6 +90,11 @@ struct MeetingOptionsView: View {
             }
         }
     }
+}
+
+#Preview {
+    MeetingOptionsView()
+        .preferredColorScheme(.dark)
 }
 
 
