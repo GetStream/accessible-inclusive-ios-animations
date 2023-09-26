@@ -17,38 +17,7 @@
 | State change: Hamburger to close icon    | ![**amburger to close icon**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/2-stateChange.gif)    | 
 | Draw user’s attention    | ![Draw attention](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)    | 
 
-## **Why use animations?**
-- **Delight and playfulness (Duolingo)**
-  
-![Duolingo animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/1-delightDuolingo.gif)
 
----
-
-- **State change: Hamburger to close icon**
-
-![**amburger to close icon**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/2-stateChange.gif)
-
----
-
-- **‼ Draw user’s attention**
-
-![Draw attention](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)
-
----
-
-- **Guidance: Replace telling with showing**
-
-![Guidance](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/4-guideUsers.gif)
-
----
-
-## Types of Animations
-
-- **Programmatically initiated**: Loading (where the fun starts)
-
-![Loading animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/6-loading.gif)
-
----
 
 ### How to build your animations
 
@@ -58,28 +27,35 @@
 
 ---
 
-## **What animations/motion may be distractive?**
+| Why use animations? | Example | 
+| --------------- | --------------- | 
+| Delight and playfulness (Duolingo)    | ![Duolingo animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/1-delightDuolingo.gif)    | 
+| State change: Hamburger to close icon    | ![**amburger to close icon**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/2-stateChange.gif)    | 
+| Draw user’s attention    | ![Draw attention](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)    | 
+| Guidance: Replace telling with showing    | ![Guidance](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/4-guideUsers.gif)    | 
 
-- **Frequent particle animations:** Rain, clouds, slowly moving stars, thunder
+
+| Types of Animations    | Example    |  
+| --------------- | --------------- | 
+| Programmatically initiated**: Loading (where the fun starts)    |![Loading animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/6-loading.gif)    | 
+| User initiated    | Row 1, Col 2    | 
+
+### How to build your animations
+
+- **Symbols, Phase, Keyframe, Spring**:
+
+![Animation types](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/7-animationTypes.gif)
+
+ What animations/motion may be distractive?    | Example    | 
+ | --------------- | --------------- | 
+| - **Frequent particle animations:** Rain, clouds, slowly moving stars, thunder
 - **Parallax: Multi-speed & multi-direction** (can cause mismatch)
 - **UIMotionEffect**: Creates a perception of depth
 - Fun to use but can be disorienting
 - Can cause motion sickness
-- **Persistent background and foreground effects**: Stars and clouds
-
-![Weather animations](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/8-rainMain.gif)
-
----
-
-- **Zooming and scaling animations**: App icon throwing animation on iOS
-
-![**Zooming and scaling animation**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/10-appZoomRM.gif)
-
----
-
-- **Spinning or rotating effects**
-
-![**Spinning or rotating effects**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/11-spinningRotationEffect.gif)
+- **Persistent background and foreground effects**: Stars and clouds    | ![Weather animations](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/8-rainMain.gif)    | 
+| Zooming and scaling animations**: App icon throwing animation on iOS    | ![**Zooming and scaling animation**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/10-appZoomRM.gif)    | 
+| Spinning or rotating effects    |![**Spinning or rotating effects**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/11-spinningRotationEffect.gif)    |
 
 ---
 
