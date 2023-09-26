@@ -11,6 +11,12 @@
 - **Apple Design Awards**: [Inclusion section]()
 ---
 
+| Why use animations? | Example | 
+| --------------- | --------------- | 
+| Delight and playfulness (Duolingo)    | ![Duolingo animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/1-delightDuolingo.gif)    | 
+| State change: Hamburger to close icon    | ![**amburger to close icon**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/2-stateChange.gif)    | 
+| Draw user’s attention    | ![Draw attention](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)    | 
+
 ## **Why use animations?**
 - **Delight and playfulness (Duolingo)**
   
@@ -24,7 +30,7 @@
 
 ---
 
-**‼ Draw user’s attention**
+- **‼ Draw user’s attention**
 
 ![Draw attention](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)
 
@@ -208,15 +214,11 @@ technique
 
 ## **Reduce Motion:** Per-app Settings
 
-**Settings App:** Remove some animations for
+- **Settings App:** Remove some animations for specific apps
 
-specific apps
+- **App Store**: Autoplay animated images and video previews
 
-**App Store**: Autoplay animated images and video
-
-previews
-
-**Example:** Downloading Headspace
+- **Example:** Downloading Headspace
 
 ![Headspace animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/24-headSpaceAppstore.gif)
 
@@ -315,9 +317,9 @@ previews
 
 ## **Adding Haptic Feedback To Animations**
 
-**Silent Mode On:** Emulate the absence of sound
+- **Silent Mode On:** Emulate the absence of sound
 
-**Example**: Reporting an incoming or outgoing call
+- **Example**: Reporting an incoming or outgoing call
 
 ![]()
 
