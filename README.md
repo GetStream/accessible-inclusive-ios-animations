@@ -32,7 +32,7 @@
 
 - **Guidance: Replace telling with showing**
 
-![**Guidance**]([https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/4-guideUsers.gif](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/4-guideUsers.gif))
+![**Guidance**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/4-guideUsers.gif)
 
 ---
 
