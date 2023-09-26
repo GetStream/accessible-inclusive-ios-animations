@@ -16,7 +16,7 @@
 | Delight and playfulness (Duolingo)    | ![Duolingo animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/1-delightDuolingo.gif)    | 
 | State change: Hamburger to close icon    | ![**amburger to close icon**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/2-stateChange.gif)    | 
 | Draw user’s attention    | ![Draw attention](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)    | 
-
+---
 
 
 ### How to build your animations
