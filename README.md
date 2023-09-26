@@ -13,6 +13,7 @@
 
 ## **Why use animations?**
 - **Delight and playfulness (Duolingo)**
+  
 ![Duolingo animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/1-delightDuolingo.gif)
 
 ---
@@ -297,7 +298,9 @@ previews
 - **VoiceOver: Animation With a Label**
 - **Add labels** for animations that have
 
-![**Animation Without a Label**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/6-loading.gif) [Sound version](#)
+![**Animation Without a Label**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/6-loading.gif) 
+
+[Sound version](#)
 
 ---
 
