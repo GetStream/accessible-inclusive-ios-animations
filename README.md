@@ -155,8 +155,7 @@ struct Explicit: View {
 | Bouncing & wave-like movement    | ![Bouncing & wave-like movement](Img/13-bouncingWaveLike.gif)    | 
 | Animating depth changes: Z-axis layers and multi-axis. Card flip animation    | ![Depth changes](Img/14-cardFlip.gif)    |
 | Multi-sliding animations: Moving in the opposite direction to the user’s scroll direction | ![Multi-sliding animations](Img/15-pragmaSite.gif)    |
-| Intense Animations: Glitching and flicking effects.
-Example: HoloVista    | ![Intense Animations](Img/16-intenseGlitchHolovista.gif)    |
+| Intense Animations: Glitching and flicking effects. Example: HoloVista | ![Intense Animations](Img/16-intenseGlitchHolovista.gif)    |
 | Blinking animation: Can cause epileptic episodes    | ![Blinking animation](Img/17-telegramBlinking.gif)    |
 
 ---
@@ -702,5 +701,5 @@ Checkout the sound version on [Vimeo](#)
 - [Apple Accessibility: YouTube](https://www.youtube.com/playlist?list=PLIl2EzNYri0cLtSlZowttih25VnSvWITu)
 - [Motion Sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity/)
 - [Play, Pause, Hide](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html)
-- [Vestibular Disorder](https://www.a11yproject.com/posts/understanding-vestibular-disorders/, https://vestibular.org/article/what-is-vestibular/)
+- [Vestibular Disorder](https://www.a11yproject.com/posts/understanding-vestibular-disorders/)
 
