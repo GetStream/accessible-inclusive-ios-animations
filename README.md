@@ -1,7 +1,9 @@
 # Accessible and Inclusive iOS/SwiftUI Animation/Motion Cheatsheet For Developers 
 ## Animations and motion can be dizzying for some app users. Let's fix that with these practical examples and following the motion accessibility guidelines outlined in this repo. Do you see something missing? Contact [@amos_gyamfi](@amos_gyamfi) and [@stefanjblos](@stefanjblos) on Twitter. 
 
-![Accessible and inclusive iOS animations](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/animationsTalk.gif)
+![Accessible and inclusive iOS animations](Img/animationsTalk.gif)
+
+--- 
 
 ## Resources we have
 
@@ -9,31 +11,31 @@
 - **HIG**: [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)
 - **WCAG**: [Motion specific section](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html)
 - **Apple Design Awards**: [Inclusivity section](https://developer.apple.com/design/awards/)
+
 ---
 
 | Why use animations? | Example | 
 | --------------- | --------------- | 
-| Delight and playfulness (Duolingo)    | ![Duolingo animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/1-delightDuolingo.gif)    | 
-| State change: Hamburger to close icon    | ![**amburger to close icon**](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/2-stateChange.gif)    | 
-| Draw user’s attention    | ![Draw attention](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)    | 
----
-|  🧑‍🦯 Guidance: Replace telling with showing   | ![Guidance animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/4-guideUsers.gif)    | 
----
+| Delight and playfulness (Duolingo)    | ![Duolingo animation](Img/1-delightDuolingo.gif)    | 
+| State change: Hamburger to close icon    | ![Hamburger to close icon](Img/2-stateChange.gif)    | 
+| Draw user’s attention    | ![Draw attention](Img/3-attentionStitch.gif)    | 
+| Guidance: Replace telling with showing | ![Guidance animation](Img/4-guideUsers.gif) | 
 
+---
 
 ## Build your animations with:
 
-- **Symbols, Phase, Keyframe, Spring**:
+- **Symbol Effects, Phase, Keyframe, Spring**:
 
-![Animation types](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/7-animationTypes.gif)
+![Animation types](/Img/7-animationTypes.gif)
 
 ---
 
 
 | Types of Animations    | Example    |  
 | --------------- | --------------- | 
-| Programmatically initiated**: Loading (where the fun starts)    |![Loading animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/6-loading.gif)    | 
-| User initiated: Gestural-based    | ![](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/5-userInitiated.gif)    | 
+| Programmatically initiated: Loading | ![Loading animation](Img/6-loading.gif)    | 
+| User initiated: Gestural-based    | ![User initiated](Img/5-userInitiated.gif)    | 
 
 ## How add your animations
 
@@ -122,14 +124,16 @@ struct Explicit: View {
 
 **The implicit and explicit code samples above result in the same animation**
 
-![Loading animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/6-loading.gif)
+![Loading animation](Img/6-loading.gif)
 
+--- 
 
 ## How things move
 
 - Standard Easing: default, linear, easeIn, easeOut, easeInOut 
 - Timing Curves (custom): easeInOutBack
 - Springs: bouncy, smooth, snappy. Visit [Purposeful SwiftUI Animation](https://github.com/GetStream/purposeful-ios-animations) to learn more.
+
 --
 
 ## What animations/motion may be distractive?
@@ -143,20 +147,21 @@ struct Explicit: View {
 
 | What animations/motion may be distractive?    | Example    |
 | --------------- | --------------- | 
-| Rain, clouds, slowly moving stars, thunder    | ![Weather animations](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/8-rainMain.gif)    | 
-| Parallax: Multi-speed & multi-direction    | ![Parallax](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/9-odio.gif)    | 
-| Zooming and scaling animations: App icon throwing animation on iOS    | ![Zooming](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/20-appIconZoom.gif)    | 
-| Spinning or rotating effects    | ![Spinning](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/11-spinningRotationEffect.gif)    | 
-| Bouncy & swoopy effects    | ![Swoopy effects](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/12-telegramReactions.gif)    | 
-| Bouncing & wave-like movement    | ![Bouncing & wave-like movement](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/13-bouncingWaveLike.gif)    | 
-| Animating depth changes: Z-axis layers and multi-axis. Card flip animation    | ![depth changes](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/14-cardFlip.gif)    |
-| Multi-sliding animations: Moving in the opposite direction to the user’s scroll direction    | ![Multi-sliding animations](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/15-pragmaSite.gif)    |
+| Rain, clouds, slowly moving stars, thunder    | ![Weather animations](Img/8-rainMain.gif)    | 
+| Parallax: Multi-speed & multi-direction    | ![Parallax](Img/9-odio.gif)    | 
+| Zooming and scaling animations: App icon throwing animation on iOS    | ![Zooming](Img/20-appIconZoom.gif)    | 
+| Spinning or rotating effects    | ![Spinning](Img/11-spinningRotationEffect.gif)    | 
+| Bouncy & swoopy effects    | ![Swoopy effects](Img/12-telegramReactions.gif)    | 
+| Bouncing & wave-like movement    | ![Bouncing & wave-like movement](Img/13-bouncingWaveLike.gif)    | 
+| Animating depth changes: Z-axis layers and multi-axis. Card flip animation    | ![Depth changes](Img/14-cardFlip.gif)    |
+| Multi-sliding animations: Moving in the opposite direction to the user’s scroll direction | ![Multi-sliding animations](Img/15-pragmaSite.gif)    |
 | Intense Animations: Glitching and flicking effects.
-Example: HoloVista    | ![Intense Animations](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/16-intenseGlitchHolovista.gif)    |
-| Blinking animation: Can cause epileptic episodes    | ![Blinking animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/17-telegramBlinking.gif)    |
+Example: HoloVista    | ![Intense Animations](Img/16-intenseGlitchHolovista.gif)    |
+| Blinking animation: Can cause epileptic episodes    | ![Blinking animation](Img/17-telegramBlinking.gif)    |
+
 ---
 
-## Guide 1:** Pause, Play, Hide
+## Guide 1: Pause, Play, Hide
 
 - **Autoplaying GIFs and videos**: show play/
 - pause buttons
@@ -164,7 +169,8 @@ Example: HoloVista    | ![Intense Animations](https://github.com/GetStream/acces
 - **Animated illustration**: Play/pause controls
 - (**looping more than 5x**)
 
-![Pause, Play, Hide](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/18-playPaause.gif)
+![Pause and hide](Img/18-playPaause.gif)
+
 ---
 
 ## Guide 2: Don’t blink/flash more than 3 in 1 sec
@@ -173,6 +179,7 @@ Example: HoloVista    | ![Intense Animations](https://github.com/GetStream/acces
 - **Blinking**: Can cause seizures
 - **Great example**: iOS Screen recording animation (Dynamic Island)
 - **Replace flashing**: With varieties of SF Symbol animations to convey information
+
 ---
 
 ## Guide 3: User-initiated animations
@@ -180,7 +187,8 @@ Example: HoloVista    | ![Intense Animations](https://github.com/GetStream/acces
 - Provide a way to disable animations
 - **Great example**: Animated bouncy reactions in Telegram
 
-![User-initiated animations](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/5-userInitiated.gif)
+![User-initiated animations](Img/5-userInitiated.gif)
+
 ---
 
 ## Reduce Motion: General Settings
@@ -190,7 +198,8 @@ Example: HoloVista    | ![Intense Animations](https://github.com/GetStream/acces
 - **GIFs and videos**: Use image image-switching technique
 - **App Store:** Horizontal card scrolling animation
 
-![scrolling animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/19-appStoreScroll.gif)
+![scrolling animation](Img/19-appStoreScroll.gif)
+
 ---
 
 ## Reduce Motion: General Settings
@@ -198,7 +207,8 @@ Example: HoloVista    | ![Intense Animations](https://github.com/GetStream/acces
 - **Settings App:** limit animations/motion in all apps
 - **Scaling and zooming animation**: Throwing animation of launching an iOS app icon
 
-![Scaling and zooming animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/10-appZoomRM.gif)
+![Scaling and zooming animation](Img/10-appZoomRM.gif)
+
 ---
 
 ## Reduce Motion: Prefer Cross-Fade (iOS 14)
@@ -206,7 +216,7 @@ Example: HoloVista    | ![Intense Animations](https://github.com/GetStream/acces
 - What?: SwiftUI NavigationLink -> Cross-fade transition
 - **Push segues with slide-in/out animations**: UIs appearing/disappearing
 
-![Prefer Cross-Fade](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/21-preferCrossFadeNoRM.gif)
+![Prefer Cross-Fade](Img/21-preferCrossFadeNoRM.gif)
 
 ```swift
 NavigationLink {
@@ -238,7 +248,8 @@ NavigationLink {
 
 - **When to use**: When there is no suitable replacement animation
 
-![ Prefer Cross-Fade ](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/23-crossFade.gif)
+![Prefer Cross-Fade](Img/23-crossFade.gif)
+
 ---
 
 ## Reduce Motion:** Prefer Cross-Fade (iOS 14)
@@ -247,7 +258,7 @@ NavigationLink {
 - **Use NavigationLink** to get it for free
 - **Example**: Settings App
 
-![Prefer Cross-Fade](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/22-preferCrossFadeRM.gif)
+![Prefer Cross-Fade](Img/22-preferCrossFadeRM.gif)
 ---
 
 ## Reduce Motion: Per-app Settings
@@ -256,7 +267,7 @@ NavigationLink {
 - **App Store**: Autoplay animated images and video previews
 - **Example:** Downloading Headspace
 
-![Headspace animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/24-headSpaceAppstore.gif)
+![Headspace animation](Img/24-headSpaceAppstore.gif)
 ---
 
 # Accessible & Inclusive Animations
@@ -264,7 +275,7 @@ NavigationLink {
 - **Stitch Game:** Solve number puzzles by filling out patterns
 - **Reduce Motion enabled**: Disables all sudden movements
 
-![Reduce Motion enabled](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/25-stitchRM.gif)
+![Reduce Motion enabled](Img/25-stitchRM.gif)
 ---
 
 ## Use Motion: In-app Settings
@@ -276,11 +287,12 @@ NavigationLink {
 
 **Reduce Motion Off**
 
-![PCalc animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/26-pCalc1.gif)
+![PCalc animation](Img/26-pCalc1.gif)
 
 **Reduce Motion On**
 
-![PCalc animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/26-pCalc2.gif)
+![PCalc animation](Img/26-pCalc2.gif)
+
 ---
 
 ## Adopting Reduce Motion
@@ -348,7 +360,8 @@ struct ReduceMotionAnimationSubtleFeel: View {
 }
 ```
 
-![Bouncy Transition](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/26-bouncyFeel.gif)
+![Bouncy Transition](Img/26-bouncyFeel.gif)
+
 ---
 
 ## Adopting Reduce Motion
@@ -417,7 +430,7 @@ struct ReduceMotionAnimationNil: View {
 }
 ```
 
-![Remove animation altogether](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/28-reduceMotionNil.gif)
+![Remove animation altogether](Img/28-reduceMotionNil.gif)
 ---
 
 ## Adopting Reduce Motion
@@ -486,7 +499,7 @@ struct ReduceMotionAnimationSubtleFeel: View {
 }
 ```
 
-![Provide an alternative reduced behavio](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/29-reduceMotionSubtle.gif)
+![Provide an alternative reduced behavior](Img/29-reduceMotionSubtle.gif)
 ---
 
 ## Adopting Reduce Motion
@@ -554,7 +567,7 @@ struct ReduceMotionDurationZero: View {
 }
 ```
 
-![Setting animation duration to 0](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/27-reduceMotion0.gif)
+![Setting animation duration to 0](Img/27-reduceMotion0.gif)
 ---
 
 ## Animation Description and VoiceOver
@@ -562,7 +575,7 @@ struct ReduceMotionDurationZero: View {
 - **Test animations**: Ask Siri to “Turn on VoiceOver.”
 - Hide decorative decorative animations
 
-![VoiceOver testing](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/30-voiceOverOff.gif)
+![VoiceOver testing](Img/30-voiceOverOff.gif)
 ---
 
 ## VoiceOver: Animation Without a Label
@@ -587,7 +600,7 @@ Circle()
     }
 ```
 
-![Animation Without a Label](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/31-voiceOverOn.gif) 
+![Animation Without a Label](Img/31-voiceOverOn.gif) 
 
 Checkout the sound version on [Vimeo](#)
 ---
@@ -616,7 +629,7 @@ Circle()
     }
 ```
 
-![Animation With a Label](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/31-voiceOverOn.gif) 
+![Animation With a Label](Img/31-voiceOverOn.gif) 
 
 Checkout the sound version on [Vimeo](#)
 ---
@@ -626,7 +639,7 @@ Checkout the sound version on [Vimeo](#)
 - **Mimicking physical touch and drag**:
 - **Example**: Stitch
 
-![Mimicking physical touch and drag](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/3-attentionStitch.gif)
+![Mimicking physical touch and drag](Img/3-attentionStitch.gif)
 ---
 
 ## Adding Haptic Feedback To Animations
@@ -635,7 +648,7 @@ Checkout the sound version on [Vimeo](#)
 
 - **Example**: Reporting an incoming or outgoing call
 
-![Outgoing call animation](https://github.com/GetStream/accessible-inclusive-ios-animations/blob/main/Img/outgoingCall.gif)
+![Outgoing call animation](Img/outgoingCall.gif)
 ---
 
 ## Follow the Basic Accessibility Guidelines
