@@ -218,6 +218,8 @@ Example: HoloVista    | ![Intense Animations](Img/16-intenseGlitchHolovista.gif)
 
 ![Prefer Cross-Fade](Img/21-preferCrossFadeNoRM.gif)
 
+---
+
 ```swift
 NavigationLink {
                     PreJoinScreen()
@@ -259,6 +261,7 @@ NavigationLink {
 - **Example**: Settings App
 
 ![Prefer Cross-Fade](Img/22-preferCrossFadeRM.gif)
+
 ---
 
 ## Reduce Motion: Per-app Settings
@@ -268,6 +271,7 @@ NavigationLink {
 - **Example:** Downloading Headspace
 
 ![Headspace animation](Img/24-headSpaceAppstore.gif)
+
 ---
 
 # Accessible & Inclusive Animations
@@ -276,6 +280,7 @@ NavigationLink {
 - **Reduce Motion enabled**: Disables all sudden movements
 
 ![Reduce Motion enabled](Img/25-stitchRM.gif)
+
 ---
 
 ## Use Motion: In-app Settings
@@ -431,6 +436,7 @@ struct ReduceMotionAnimationNil: View {
 ```
 
 ![Remove animation altogether](Img/28-reduceMotionNil.gif)
+
 ---
 
 ## Adopting Reduce Motion
@@ -500,6 +506,7 @@ struct ReduceMotionAnimationSubtleFeel: View {
 ```
 
 ![Provide an alternative reduced behavior](Img/29-reduceMotionSubtle.gif)
+
 ---
 
 ## Adopting Reduce Motion
@@ -568,6 +575,7 @@ struct ReduceMotionDurationZero: View {
 ```
 
 ![Setting animation duration to 0](Img/27-reduceMotion0.gif)
+
 ---
 
 ## Animation Description and VoiceOver
@@ -576,6 +584,7 @@ struct ReduceMotionDurationZero: View {
 - Hide decorative decorative animations
 
 ![VoiceOver testing](Img/30-voiceOverOff.gif)
+
 ---
 
 ## VoiceOver: Animation Without a Label
@@ -603,6 +612,7 @@ Circle()
 ![Animation Without a Label](Img/31-voiceOverOn.gif) 
 
 Checkout the sound version on [Vimeo](#)
+
 ---
 
 ## VoiceOver: Animation With a Label
@@ -632,6 +642,7 @@ Circle()
 ![Animation With a Label](Img/31-voiceOverOn.gif) 
 
 Checkout the sound version on [Vimeo](#)
+
 ---
 
 ## **Adding Haptic Feedback To Animations**
@@ -640,6 +651,7 @@ Checkout the sound version on [Vimeo](#)
 - **Example**: Stitch
 
 ![Mimicking physical touch and drag](Img/3-attentionStitch.gif)
+
 ---
 
 ## Adding Haptic Feedback To Animations
@@ -649,6 +661,7 @@ Checkout the sound version on [Vimeo](#)
 - **Example**: Reporting an incoming or outgoing call
 
 ![Outgoing call animation](Img/outgoingCall.gif)
+
 ---
 
 ## Follow the Basic Accessibility Guidelines
@@ -657,6 +670,8 @@ Checkout the sound version on [Vimeo](#)
 - **Provide similar visual effects** without requiring motion
 - Excessive motion can cause **discomfort**, **dizziness**
 - **Example**: Parallax, sliding animations
+
+---
 
 ## Wrap Up
 
@@ -670,6 +685,8 @@ Checkout the sound version on [Vimeo](#)
 - How can people with **motion sensitivities** enjoy my app?
 - What if the user’s **reduced motion** setting is on?
 - Will **springiness/bounciness** feel out of place?
+
+---
 
 ## Where To Go From Here?
 
