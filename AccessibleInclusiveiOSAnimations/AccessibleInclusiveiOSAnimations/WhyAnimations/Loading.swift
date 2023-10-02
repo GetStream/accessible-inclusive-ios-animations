@@ -21,6 +21,7 @@ struct Loading: View {
                 .frame(width: 50, height: 50)
                 .rotationEffect(.degrees(rotating ? 360 : 0))
                 .accessibilityLabel("Loading Animation")
+                .accessibilityHint("Circular image loading animation")
                 .onAppear {
                     withAnimation(.linear(duration: 1).repeatForever(autoreverses: false)) {
                         rotating.toggle()
@@ -34,9 +35,15 @@ struct Loading: View {
                         ending.toggle()
                     }
                 }
-            
-            Image(.bmcLogo)
-        } //
+                
+            // Tell VoiceOver to skip this image
+            Image(decorative: "bmcLogo")
+            // Hide the image completely
+                .accessibilityHidden(true)
+        }
+        // Define how VoiceOver should interact with the group of elements
+        .accessibilityElement(children: .combine)
+        // Don't read the children but the combined element
     }
 }
 

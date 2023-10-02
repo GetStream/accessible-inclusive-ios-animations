@@ -23,7 +23,8 @@ struct AccessibleInclusiveiOSAnimationsApp: App {
             //ReduceMotionAnimationSubtleFeel()
             //ReduceMotionDurationZero()
             //MeetingOptionsView()
-            SpinningOrRotatingEffect()
+            //SpinningOrRotatingEffect()
+            MickeyMouseAnimation()
         }
     }
 }
